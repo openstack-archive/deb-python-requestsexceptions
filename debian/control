@@ -23,7 +23,7 @@ Depends: python-pbr (>= 0.11),
          ${misc:Depends},
          ${python:Depends},
 Description: import exceptions from bundled packages in requests. - Python 2.7
- The python requests library bundles the urllib3 library, however, some
+ The Python requests library bundles the urllib3 library, however, some
  software distributions (like Debian) modify requests to remove the bundled
  library. This makes some operations, such as supressing the "insecure platform
  warning" messages that urllib emits difficult. This is a simple library to
@@ -38,7 +38,7 @@ Depends: python3-pbr (>= 0.11),
          ${misc:Depends},
          ${python3:Depends},
 Description: import exceptions from bundled packages in requests. - Python 3.x
- The python requests library bundles the urllib3 library, however, some
+ The Python requests library bundles the urllib3 library, however, some
  software distributions (like Debian) modify requests to remove the bundled
  library. This makes some operations, such as supressing the "insecure platform
  warning" messages that urllib emits difficult. This is a simple library to
