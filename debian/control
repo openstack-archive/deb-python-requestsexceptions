@@ -1,0 +1,47 @@
+Source: python-requestsexceptions
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-pbr (>= 0.11),
+               python-setuptools,
+               python3-all,
+               python3-pbr (>= 0.11),
+               python3-setuptools,
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-requestsexceptions.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-requestsexceptions.git
+Homepage: http://www.openstack.org/
+
+Package: python-requestsexceptions
+Architecture: all
+Depends: python-pbr (>= 0.11),
+         ${misc:Depends},
+         ${python:Depends},
+Description: import exceptions from bundled packages in requests. - Python 2.7
+ The python requests library bundles the urllib3 library, however, some
+ software distributions (like Debian) modify requests to remove the bundled
+ library. This makes some operations, such as supressing the "insecure platform
+ warning" messages that urllib emits difficult. This is a simple library to
+ find the correct path to exceptions in the requests library regardless of
+ whether they are bundled.
+ .
+ This package contains the Python 2.7 module.
+
+Package: python3-requestsexceptions
+Architecture: all
+Depends: python3-pbr (>= 0.11),
+         ${misc:Depends},
+         ${python3:Depends},
+Description: import exceptions from bundled packages in requests. - Python 3.x
+ The python requests library bundles the urllib3 library, however, some
+ software distributions (like Debian) modify requests to remove the bundled
+ library. This makes some operations, such as supressing the "insecure platform
+ warning" messages that urllib emits difficult. This is a simple library to
+ find the correct path to exceptions in the requests library regardless of
+ whether they are bundled.
+ .
+ This package contains the Python 3.x module.

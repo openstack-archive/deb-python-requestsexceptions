@@ -1,0 +1,5 @@
+python-requestsexceptions (1.1.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #806429)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 27 Nov 2015 12:21:09 +0100
