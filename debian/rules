@@ -3,8 +3,8 @@
 PYTHONS:=$(shell pyversions -vr)
 PYTHON3S:=$(shell py3versions -vr)
 
-UPSTREAM_GIT = git://github.com/<please-user>/requestsexceptions.git
--include /usr/share/openstack-pkg-tools/pkgos.make
+UPSTREAM_GIT = git://github.com/openstack-infra/requestsexceptions.git
+include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
 	dh $@ --buildsystem=python_distutils --with python2,python3
