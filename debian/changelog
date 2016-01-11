@@ -1,3 +1,10 @@
+python-requestsexceptions (1.1.2-1) unstable; urgency=medium
+
+  * New release.
+  * Fix dependencies.
+
+ -- Ivan Udovichenko <iudovichenko@mirantis.com>  Tue, 12 Jan 2016 00:40:34 +0200
+
 python-requestsexceptions (1.1.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #806429)

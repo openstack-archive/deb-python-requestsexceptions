@@ -20,6 +20,7 @@ Homepage: http://www.openstack.org/
 Package: python-requestsexceptions
 Architecture: all
 Depends: python-pbr (>= 0.11),
+         python-urllib3 (>= 1.13),
          ${misc:Depends},
          ${python:Depends},
 Description: import exceptions from bundled packages in requests. - Python 2.7
@@ -35,6 +36,7 @@ Description: import exceptions from bundled packages in requests. - Python 2.7
 Package: python3-requestsexceptions
 Architecture: all
 Depends: python3-pbr (>= 0.11),
+         python3-urllib3 (>= 1.13),
          ${misc:Depends},
          ${python3:Depends},
 Description: import exceptions from bundled packages in requests. - Python 3.x
