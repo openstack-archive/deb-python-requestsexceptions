@@ -1,0 +1,8 @@
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 31 Mar 2017 18:03:38 +0000
+Reviewed-on: https://review.openstack.org/451836
+Project: openstack/deb-python-requestsexceptions
+Branch: refs/heads/master
